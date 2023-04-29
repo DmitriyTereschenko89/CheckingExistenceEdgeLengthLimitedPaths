@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        public class Solution
+        public class CheckingExistenceEdgeLengthLimitedPaths
         {
             private class UnionFind
             {
@@ -100,7 +100,7 @@
 
         static void Main(string[] args)
         {
-            Solution solution = new();
+            CheckingExistenceEdgeLengthLimitedPaths solution = new();
             solution.DistanceLimitedPathsExist(3, new int[][] { new int[] { 0, 1, 2 }, new int[] { 1, 2, 4 }, new int[] { 2, 0, 8 }, new int[] { 1, 0, 16 } }, new int[][]
             {
                 new int[] { 0, 1, 2 },
